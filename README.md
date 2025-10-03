@@ -21,7 +21,7 @@ Dieses Projekt zeigt, wie man mit **Bicep** als IaC-Sprache Infrastruktur für A
 
 ### 📂 Projektstruktur
 ```
-├── bicep/
+├── infrastructure/
 │   ├── main.bicep
 │   └── modules/
 │       └── storage.bicep

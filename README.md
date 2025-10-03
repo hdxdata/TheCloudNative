@@ -20,7 +20,7 @@
 Dieses Projekt zeigt, wie man mit **Bicep** als IaC-Sprache Infrastruktur für Azure definiert und über **GitHub** verwaltet und deployt.
 
 ### 📂 Projektstruktur
-
+```
 ├── bicep/
 │   ├── main.bicep
 │   └── modules/
@@ -29,7 +29,7 @@ Dieses Projekt zeigt, wie man mit **Bicep** als IaC-Sprache Infrastruktur für A
 │   └── workflows/
 │       └── deploy.yml
 ├── README.md
-
+```
 ## 💻 Workflow: VS Code → GitHub → Azure
 
 ### 1. Entwicklung in VS Code

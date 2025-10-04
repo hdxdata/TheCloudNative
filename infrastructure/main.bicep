@@ -15,3 +15,11 @@ resource resourceGroup 'Microsoft.Resources/resourceGroups@2021-04-01' = {
   name: resourceGroupName
   location: location
 }
+
+module containerRegistryModule './containerRegistry.bicep' = {
+  name: 'containerRegistryModule'
+  scope: rg
+  params: {
+    arctName: 'arc${projectName}${environment}'
+  }
+}

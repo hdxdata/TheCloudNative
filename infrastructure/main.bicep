@@ -20,7 +20,6 @@ module containerRegistryModule './containerRegistry.bicep' = {
   name: 'containerRegistryModule'
   scope: rg
   params: {
-    registryName: 'arc${projectName}${environment}'
-    location: location
+    arcName: 'arc${projectName}${environment}'
   }
 }

@@ -21,5 +21,6 @@ module containerRegistryModule './containerRegistry.bicep' = {
   scope: rg
   params: {
     arcName: 'arc${projectName}${environment}'
+    adminUserEnabled: false
   }
 }
